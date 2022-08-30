@@ -30,3 +30,4 @@ jobs:
         SERVERCHAN_KEY: ${{secrets.SERVERCHAN_KEY}}
       run: |
         python3 HealthReporter.py
+        
